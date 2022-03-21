@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Hitung Nilai Mahasiswa</title>
 </head>
 <body>
     <section class="container-fluid">
         <section class="row mt-5 pt-5 justify-content-center">
             <section class="col-sm-6 col-md-4">
                 <div class="card">
-                    <div class="card-header">Perhitungan Nilai Mahasiswa</div>
+                    <div style="background-color: rgb(255, 0, 179);" class="card-header">Hitung Nilai Mahasiswa</div>
                     <div class="card-body">
                         <form name="form" class="form-container">
                             <div class="form-floating mb-3 mt-3">
                                 <input type="text" class="form-control" id="NIM" placeholder=" " name="" maxlength="12" onkeypress="return validasiAngka(event)">
-                                <label for="ferrari">Masukan Nim :</label>
+                                <label for="ferrari">NIM :</label>
                             </div>
                             <div class="form-floating mb-3 mt-3">
                                 <input type="text" class="form-control" id="nama" placeholder=" " name="" onkeypress="return validasiHuruf(event)">
-                                <label for="ferrari">Masukan Nama :</label>
+                                <label for="ferrari">NAMA :</label>
                             </div>
                             <div class="form-floating mb-3 mt-3">
                                 <input type="text" class="form-control" id="tugas" placeholder=" " name="" maxlength="3" onkeypress="return validasiAngka(event)">
@@ -33,14 +33,14 @@
                             </div>
                             <div class="form-floating mb-3 mt-3">
                                 <input type="text" class="form-control" id="uts" placeholder=" " name="" maxlength="3" onkeypress="return validasiAngka(event)">
-                                <label for="ferrari">Masukan Nilai Uts :</label>
+                                <label for="ferrari">Masukan Nilai UTS :</label>
                             </div>
                             <div class="form-floating mb-3 mt-3">
                                 <input type="text" class="form-control" id="uas" placeholder=" " name="" maxlength="3" onkeypress="return validasiAngka(event)">
-                                <label for="ferrari">Masukan Nilai Uas :</label>
+                                <label for="ferrari">Masukan Nilai UAS :</label>
                             </div>
                             <div class="mb-3 mt-3">
-                                <button type="button" class="btn btn-primary" id="kirim">Hitung</button>
+                                <button style="background-color: rgb(255, 0, 179);" type="button" class="btn btn-primary" id="kirim">Hitung</button>
                             </div>
                         </form>
                     </div>
@@ -57,9 +57,6 @@
             </section>
         </section>
     </section>
-    <footer class="bg-dark text-white text-center pb-3 fixed-bottom">
-        <p>created by <a href="" class="fw-bold text-white">M. Zainul Ulum</a></p>
-      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
         function validasiAngka(evt) {
